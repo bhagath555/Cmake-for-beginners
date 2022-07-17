@@ -1,0 +1,2 @@
+set(COUNTRY "India")
+message("I live in ${COUNTRY}!")
