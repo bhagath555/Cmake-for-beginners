@@ -30,6 +30,18 @@ This prints below output in command prompt.
 Hello world!
 ```
 
+## Access CMAKE current path:
+
+```cmake
+set(dir ${CMAKE_CURRENT_SOURCE_DIR}) # This is to access the current path of the file
+message(${dir}) 
+# ${dir} -> With this we can access the dir variable set in first line. Above command prints it.
+```
+
+
+
+## CMAKE: C/C++ Executables and static header only library
+
 
 
 ## To Build CMake project:
