@@ -1,0 +1,7 @@
+macro(setName)
+    set(name "Bhagath")
+endmacro()
+
+setName()
+
+message(${name})

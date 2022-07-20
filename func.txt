@@ -1,0 +1,9 @@
+function(print)
+    # There print is the functions name.
+    # All the arguments will be  stores in variable ARGV.
+    foreach(arg IN LISTS ARGV)
+       message(${arg})
+    endforeach()
+endfunction()
+
+print("March" "May" "June")
