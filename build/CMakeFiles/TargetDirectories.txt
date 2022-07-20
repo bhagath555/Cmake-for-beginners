@@ -1,0 +1,4 @@
+C:/Users/Bhagath/Documents/GitHub/Cmake-for-beginners/build/CMakeFiles/edit_cache.dir
+C:/Users/Bhagath/Documents/GitHub/Cmake-for-beginners/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Bhagath/Documents/GitHub/Cmake-for-beginners/build/subdir_1/CMakeFiles/edit_cache.dir
+C:/Users/Bhagath/Documents/GitHub/Cmake-for-beginners/build/subdir_1/CMakeFiles/rebuild_cache.dir
