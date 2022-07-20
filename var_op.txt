@@ -1,0 +1,4 @@
+set(myPath "/Bhagath") # Setting mypath variable
+set(myDir "Bam") # Setting myDir variable
+set(myFile "${myPath}/${myDir}/main.cpp")
+Message(${myFile}) # will print /home/projectA/main.cpp

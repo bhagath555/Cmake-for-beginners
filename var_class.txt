@@ -1,0 +1,14 @@
+# Class type variable in CMAKE.
+set(folder1-header "/folder1/a.h")
+set(folder1-source "/folder1/a.cpp")
+
+set(folder2-header "/folder2/b.h")
+set(folder2-source "/folder2/b.cpp")
+
+# set(folder folder1)
+# comment the above line
+# and uncomment the below line, see the message
+set(folder folder2)
+
+message(${${folder}-header}) # -> ${folder2-header}
+message(${${folder}-source})

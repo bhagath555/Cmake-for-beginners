@@ -1,1 +1,5 @@
+set(NAME "Bhagath")
 message("Hello ${NAME}!")       # Substitute a variable into the message
+
+# Unsetting a variable
+unset(Name)

@@ -1,2 +1,7 @@
 set(COUNTRY "India")
 message("I live in ${COUNTRY}!")
+
+set (x "Boy Boy")
+set (b ${x})
+# Printing variable b -> "Boy Boy"
+message(${b})

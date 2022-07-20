@@ -1,0 +1,5 @@
+set(a "Final")
+set(b a)
+message( b ) # shows b
+message( ${b} ) # shows a
+message( ${${b}} ) # shows Final

@@ -1,0 +1,18 @@
+set(List_ex1 "main.cpp;main.h;test.cpp")
+
+set(List_ex2 main.cpp main.h test.cpp)
+
+# List_ex1 is same as List_ex2
+message("\nPrinting List_ex1")
+message(${List_ex1})
+message("\nPrinting List_ex2")
+message(${List_ex2})
+
+message("\nList appending operation:")
+# Setting a variable
+set(myFiles1 "sample1.h;sample2.h")
+
+set(main "x.cpp")
+set(myFiles2 ${myFiles1})
+list(APPEND myFiles2 ${main})
+message(${myFiles2})
