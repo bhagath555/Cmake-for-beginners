@@ -44,19 +44,6 @@ message(${dir})
 
 
 
-## To Build CMake project:
-
-#### CMAKE file:
-
-```
-cmake_minimum_required(VERSION 3.24)
-set( CMAKE_CXX_COMPILER "C:/MinGW/bin/g++.exe" )
-set( CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe" )
-project(gravity)
-
-add_executable(${PROJECT_NAME} "main.cpp" "constants.h")
-```
-
 #### CMD commands:
 
 ```
